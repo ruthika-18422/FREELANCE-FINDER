@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Find Experts - FreelanceFinder</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="logo.png" type="image/x-icon" />
+  <style>
+    body {
+      background-color: #e8fefb;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .page-container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .page-container h1 {
+      font-size: 2.5rem;
+      color: #00b88d;
+      margin-bottom: 20px;
+    }
+
+    .page-container p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .expert-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .expert-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .expert-card h3 {
+      margin: 10px 0;
+      color: #00b88d;
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 0.8rem 2rem;
+      background-color: #00b88d;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 40px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #009f76;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar a {
+      color: #333;
+    }
+
+    .navbar a:hover {
+      color: #00b88d;
+      border-bottom: 2px solid #00b88d;
+    }
+
+    .logo {
+      color: #00b88d;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="logo">FreelanceFinder</a>
+    <nav class="navbar">
+      <a href="index.html">Discover</a>
+      <a href="why us.html">Why Us?</a>
+      <a href="hire talent.html">Hire Talent</a>
+      <a href="findexperts.html">Find Experts</a>
+      <a href="join.html">Join Now</a>
+      <a href="sign.html">Sign In</a>
+    </nav>
+  </header>
+
+  <section class="page-container">
+    <h1>Browse Expert Categories</h1>
+    <p>Explore talent across a wide range of skills. Click on a category to discover top-rated freelancers ready to work on your project.</p>
+
+    <div class="expert-grid">
+      <div class="expert-card">
+        <h3>💻 Web Developers</h3>
+        <p>Frontend, Backend, Full-stack, React, Node.js</p>
+      </div>
+      <div class="expert-card">
+        <h3>🎨 Designers</h3>
+        <p>UI/UX, Logo Design, Branding, Figma, Photoshop</p>
+      </div>
+      <div class="expert-card">
+        <h3>📝 Content Writers</h3>
+        <p>Blogs, SEO Writing, Copywriting, Editing</p>
+      </div>
+      <div class="expert-card">
+        <h3>📱 App Developers</h3>
+        <p>Android, iOS, Flutter, React Native</p>
+      </div>
+      <div class="expert-card">
+        <h3>📈 Marketers</h3>
+        <p>Digital Marketing, SEO, Google Ads, Social Media</p>
+      </div>
+      <div class="expert-card">
+        <h3>💼 Virtual Assistants</h3>
+        <p>Data Entry, Admin Support, Scheduling</p>
+      </div>
+    </div>
+
+    <a href="hire talent.html" class="cta-button">Post a Job</a>
+  </section>
+
+</body>
+</html>
